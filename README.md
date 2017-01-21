@@ -2,8 +2,10 @@
 
 Adding Realm 2.3.0 to a brand new, clean Kotlin project makes the build fail with the following message:
 
-```FAILURE: Build failed with an exception.
+```
+FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':app:compileDebugAndroidTestJavaWithJavac'.
-> java.lang.NoClassDefFoundError: org/jetbrains/kotlin/annotation/AnnotationProcessorWrapper```
+> java.lang.NoClassDefFoundError: org/jetbrains/kotlin/annotation/AnnotationProcessorWrapper
+```
