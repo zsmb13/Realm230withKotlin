@@ -9,3 +9,11 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:compileDebugAndroidTestJavaWithJavac'.
 > java.lang.NoClassDefFoundError: org/jetbrains/kotlin/annotation/AnnotationProcessorWrapper
 ```
+
+###Update:
+
+Adding
+```
+apply plugin: 'kotlin-kapt'
+```
+to the module level gradle file solves this issue.
