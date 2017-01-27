@@ -17,3 +17,5 @@ Adding
 apply plugin: 'kotlin-kapt'
 ```
 to the module level gradle file solves this issue.
+
+The issue is tracked here: https://github.com/realm/realm-java/issues/4087
